@@ -1,0 +1,391 @@
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e0bbf23856e3e10e3514a4e9cc95fa1/lifecycle-viewmodel-2.1.0/jars/classes.jar!/\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e0bbf23856e3e10e3514a4e9cc95fa1/lifecycle-viewmodel-2.1.0/res\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e0bbf23856e3e10e3514a4e9cc95fa1/lifecycle-viewmodel-2.1.0/AndroidManifest.xml\" />\r\n    </CLASSES>\r\n    <JAVADOC />\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.1.0/bfd86b9887c2343516f82bed91acbab34a45841d/lifecycle-viewmodel-2.1.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml	(revision a52a3e37e9724f05d9a69e1af82e4a68a8d801dc)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml	(date 1605082537508)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar">
++  <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.2.0@aar">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e0bbf23856e3e10e3514a4e9cc95fa1/lifecycle-viewmodel-2.1.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e0bbf23856e3e10e3514a4e9cc95fa1/lifecycle-viewmodel-2.1.0/res" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e0bbf23856e3e10e3514a4e9cc95fa1/lifecycle-viewmodel-2.1.0/AndroidManifest.xml" />
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7583a1193aea876241da18273384578b/lifecycle-viewmodel-2.2.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7583a1193aea876241da18273384578b/lifecycle-viewmodel-2.2.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7583a1193aea876241da18273384578b/lifecycle-viewmodel-2.2.0/AndroidManifest.xml" />
+     </CLASSES>
+     <JAVADOC />
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.1.0/bfd86b9887c2343516f82bed91acbab34a45841d/lifecycle-viewmodel-2.1.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.2.0/4f90404dd52d3162217bf329db5afb32d373ec63/lifecycle-viewmodel-2.2.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0.xml	(date 1605082537480)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0.xml	(date 1605082537480)
+@@ -0,0 +1,11 @@
++<component name="libraryTable">
++  <library name="Gradle: androidx.lifecycle:lifecycle-common:2.2.0">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/d38861c5e1656c5eb1890b1fa149510f38aa5d42/lifecycle-common-2.2.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_2_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_2_0_aar.xml	(date 1605082537502)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_2_0_aar.xml	(date 1605082537502)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: androidx.lifecycle:lifecycle-livedata-ktx:2.2.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/967db5f045aa12f61dc044d291d9d9e1/jetified-lifecycle-livedata-ktx-2.2.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/967db5f045aa12f61dc044d291d9d9e1/jetified-lifecycle-livedata-ktx-2.2.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/967db5f045aa12f61dc044d291d9d9e1/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-ktx/2.2.0/cf14c53d6d424fadcf5334860b11d1733ae8a422/lifecycle-livedata-ktx-2.2.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50.xml
+===================================================================
+--- .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50.xml	(date 1605082537557)
++++ .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50.xml	(date 1605082537557)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.50" type="kotlin.common">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/acd7ffcfdebdbf05b2edba3615968b33241063ea/kotlin-stdlib-common-1.3.50-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/8ac406cf33e942265c4abb33ee0acdee79292dd6/kotlin-stdlib-common-1.3.50-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a5e36edf0bf6877cab03a462d62c58d/lifecycle-livedata-2.0.0/jars/classes.jar!/\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a5e36edf0bf6877cab03a462d62c58d/lifecycle-livedata-2.0.0/res\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a5e36edf0bf6877cab03a462d62c58d/lifecycle-livedata-2.0.0/AndroidManifest.xml\" />\r\n    </CLASSES>\r\n    <JAVADOC />\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/740ce61935bd789380c01178bd8ce402402ebd2f/lifecycle-livedata-2.0.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml	(revision a52a3e37e9724f05d9a69e1af82e4a68a8d801dc)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml	(date 1605082537486)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar">
++  <library name="Gradle: androidx.lifecycle:lifecycle-livedata:2.2.0@aar">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a5e36edf0bf6877cab03a462d62c58d/lifecycle-livedata-2.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a5e36edf0bf6877cab03a462d62c58d/lifecycle-livedata-2.0.0/res" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8a5e36edf0bf6877cab03a462d62c58d/lifecycle-livedata-2.0.0/AndroidManifest.xml" />
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0d5e592b4e5744d0c88a7dc24d00505/lifecycle-livedata-2.2.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0d5e592b4e5744d0c88a7dc24d00505/lifecycle-livedata-2.2.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d0d5e592b4e5744d0c88a7dc24d00505/lifecycle-livedata-2.2.0/AndroidManifest.xml" />
+     </CLASSES>
+     <JAVADOC />
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/740ce61935bd789380c01178bd8ce402402ebd2f/lifecycle-livedata-2.0.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.2.0/9849dd6833f7e999169e4f9d48949cc92bf58b50/lifecycle-livedata-2.2.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__pub_devrel_easypermissions_3_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__pub_devrel_easypermissions_3_0_0_aar.xml	(date 1605144299312)
++++ .idea/libraries/Gradle__pub_devrel_easypermissions_3_0_0_aar.xml	(date 1605144299312)
+@@ -0,0 +1,15 @@
++<component name="libraryTable">
++  <library name="Gradle: pub.devrel:easypermissions:3.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2d6c2c1a3dea3cf4dd0b23a6e14fc5d/jetified-easypermissions-3.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2d6c2c1a3dea3cf4dd0b23a6e14fc5d/jetified-easypermissions-3.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a2d6c2c1a3dea3cf4dd0b23a6e14fc5d/jetified-easypermissions-3.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pub.devrel/easypermissions/3.0.0/87ee73bd8f8416e0f55a6afbdd7f0dc333c4ed14/easypermissions-3.0.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/pub.devrel/easypermissions/3.0.0/d408bdbf9dd81cc80302736ab8d9bce5c6348580/easypermissions-3.0.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abfb1986835d7863ad588927944dd5ef/lifecycle-livedata-core-2.0.0/jars/classes.jar!/\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abfb1986835d7863ad588927944dd5ef/lifecycle-livedata-core-2.0.0/res\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abfb1986835d7863ad588927944dd5ef/lifecycle-livedata-core-2.0.0/AndroidManifest.xml\" />\r\n    </CLASSES>\r\n    <JAVADOC />\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml	(revision a52a3e37e9724f05d9a69e1af82e4a68a8d801dc)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml	(date 1605082537491)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+-  <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar">
++  <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.2.0@aar">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abfb1986835d7863ad588927944dd5ef/lifecycle-livedata-core-2.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abfb1986835d7863ad588927944dd5ef/lifecycle-livedata-core-2.0.0/res" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/abfb1986835d7863ad588927944dd5ef/lifecycle-livedata-core-2.0.0/AndroidManifest.xml" />
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f308a80268527ee3a98b201ce58e0ed5/lifecycle-livedata-core-2.2.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f308a80268527ee3a98b201ce58e0ed5/lifecycle-livedata-core-2.2.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f308a80268527ee3a98b201ce58e0ed5/lifecycle-livedata-core-2.2.0/AndroidManifest.xml" />
+     </CLASSES>
+     <JAVADOC />
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.2.0/6dcd7f31093b360c4a8bced748159e6fd237ba52/lifecycle-livedata-core-2.2.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_0.xml
+===================================================================
+--- .idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_0.xml	(date 1605082537562)
++++ .idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_0.xml	(date 1605082537562)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.0">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.3.0/804a29e0b22cfb30e04487574ad1cb888daa716d/kotlinx-coroutines-android-1.3.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.3.0/a5b6897df3209e45430a0ee9cd88ec395737d302/kotlinx-coroutines-android-1.3.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-android/1.3.0/392fb03efbcff9124afe8aaa460a00aa2247880/kotlinx-coroutines-android-1.3.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml	(date 1605082537465)
++++ .idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml	(date 1605082537465)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: androidx.annotation:annotation-experimental:1.0.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/faa46d3172606436a70f4954c4fe88af/jetified-annotation-experimental-1.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/faa46d3172606436a70f4954c4fe88af/jetified-annotation-experimental-1.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/faa46d3172606436a70f4954c4fe88af/jetified-annotation-experimental-1.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-experimental/1.0.0/2408f6cb8f31ffabdd88e1365f82914c251e44dc/annotation-experimental-1.0.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_2_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_2_0_aar.xml	(date 1605082537497)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_2_0_aar.xml	(date 1605082537497)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bea1f5cda13bd17d3f33263316fe763d/jetified-lifecycle-livedata-core-ktx-2.2.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bea1f5cda13bd17d3f33263316fe763d/jetified-lifecycle-livedata-core-ktx-2.2.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bea1f5cda13bd17d3f33263316fe763d/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core-ktx/2.2.0/7aa8d50b21a293f7a525ec84869c421a963b0188/lifecycle-livedata-core-ktx-2.2.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"libraryTable\">\r\n  <library name=\"Gradle: androidx.arch.core:core-runtime:2.0.0@aar\">\r\n    <CLASSES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88958e78a03a39da36d379d2c8b6a4b0/core-runtime-2.0.0/jars/classes.jar!/\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88958e78a03a39da36d379d2c8b6a4b0/core-runtime-2.0.0/res\" />\r\n      <root url=\"file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88958e78a03a39da36d379d2c8b6a4b0/core-runtime-2.0.0/AndroidManifest.xml\" />\r\n    </CLASSES>\r\n    <JAVADOC />\r\n    <SOURCES>\r\n      <root url=\"jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/bc41b287c95bc50a3cd27cb1b7cfb301805ba7f1/core-runtime-2.0.0-sources.jar!/\" />\r\n    </SOURCES>\r\n  </library>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml	(revision a52a3e37e9724f05d9a69e1af82e4a68a8d801dc)
++++ .idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml	(date 1605082537470)
+@@ -1,13 +1,13 @@
+ <component name="libraryTable">
+-  <library name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar">
++  <library name="Gradle: androidx.arch.core:core-runtime:2.1.0@aar">
+     <CLASSES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88958e78a03a39da36d379d2c8b6a4b0/core-runtime-2.0.0/jars/classes.jar!/" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88958e78a03a39da36d379d2c8b6a4b0/core-runtime-2.0.0/res" />
+-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88958e78a03a39da36d379d2c8b6a4b0/core-runtime-2.0.0/AndroidManifest.xml" />
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b00e05c5496a872f0e85a2965fea390a/core-runtime-2.1.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b00e05c5496a872f0e85a2965fea390a/core-runtime-2.1.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b00e05c5496a872f0e85a2965fea390a/core-runtime-2.1.0/AndroidManifest.xml" />
+     </CLASSES>
+     <JAVADOC />
+     <SOURCES>
+-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.0.0/bc41b287c95bc50a3cd27cb1b7cfb301805ba7f1/core-runtime-2.0.0-sources.jar!/" />
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-runtime/2.1.0/f19886651c9946b39f83d8c184fd0e2ce9f43c16/core-runtime-2.1.0-sources.jar!/" />
+     </SOURCES>
+   </library>
+ </component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml	(date 1605082537526)
++++ .idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml	(date 1605082537526)
+@@ -0,0 +1,16 @@
++<component name="libraryTable">
++  <library name="Gradle: androidx.transition:transition:1.2.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c15fd988bc26238d3de2baef228f7dc/transition-1.2.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c15fd988bc26238d3de2baef228f7dc/transition-1.2.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c15fd988bc26238d3de2baef228f7dc/transition-1.2.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c15fd988bc26238d3de2baef228f7dc/transition-1.2.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.transition/transition/1.2.0/65d2a5dab39f120d3f584fdead252ce81ec7dbee/transition-1.2.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__com_google_android_material_material_1_2_1_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__com_google_android_material_material_1_2_1_aar.xml	(date 1605082537538)
++++ .idea/libraries/Gradle__com_google_android_material_material_1_2_1_aar.xml	(date 1605082537538)
+@@ -0,0 +1,16 @@
++<component name="libraryTable">
++  <library name="Gradle: com.google.android.material:material:1.2.1@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b5cf40796c25367401fbf6ec124658c0/material-1.2.1/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.2.1/37d55d5141066b3d118d24232fa7025b65eb3a74/material-1.2.1-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml
+===================================================================
+--- .idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml	(date 1605082537545)
++++ .idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml	(date 1605082537545)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: org.jetbrains:annotations:13.0">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/73368c3b0887f3adc2c2730dd1b95d7c3781aaf3/annotations-13.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50.xml
+===================================================================
+--- .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50.xml	(date 1605082537551)
++++ .idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50.xml	(date 1605082537551)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.50">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/acd7ffcfdebdbf05b2edba3615968b33241063ea/kotlin-stdlib-1.3.50-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/bc0c767786c4a3c042a364e69d3f3dd5ff5253a5/kotlin-stdlib-1.3.50-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml	(date 1605082537532)
++++ .idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml	(date 1605082537532)
+@@ -0,0 +1,16 @@
++<component name="libraryTable">
++  <library name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar">
++    <ANNOTATIONS>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f509f6d2f9c1ff170092c34a0922c9f9/jetified-viewpager2-1.0.0/annotations.zip!/" />
++    </ANNOTATIONS>
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f509f6d2f9c1ff170092c34a0922c9f9/jetified-viewpager2-1.0.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f509f6d2f9c1ff170092c34a0922c9f9/jetified-viewpager2-1.0.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f509f6d2f9c1ff170092c34a0922c9f9/jetified-viewpager2-1.0.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml
+===================================================================
+--- .idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml	(date 1605082537514)
++++ .idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml	(date 1605082537514)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0@aar">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/34406af3d83710ed423335ccd29fa3d1/jetified-lifecycle-viewmodel-ktx-2.2.0/jars/classes.jar!/" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/34406af3d83710ed423335ccd29fa3d1/jetified-lifecycle-viewmodel-ktx-2.2.0/res" />
++      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/34406af3d83710ed423335ccd29fa3d1/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-ktx/2.2.0/3bc5992b0bb49e2d7ce92d34c45e54e1795cc03b/lifecycle-viewmodel-ktx-2.2.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_0.xml
+===================================================================
+--- .idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_0.xml	(date 1605082537568)
++++ .idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_0.xml	(date 1605082537568)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0">
++    <CLASSES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.0/36fa8555d92456448ec19e64b00be830df9a7fb5/kotlinx-coroutines-core-1.3.0.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.0/8fdb244b797a9318128367d854452bf9db99c417/kotlinx-coroutines-core-1.3.0-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.0/23a4e24d487cf4838494193e8bbf52f332006557/kotlinx-coroutines-core-1.3.0-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file

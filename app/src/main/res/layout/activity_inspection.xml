@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/show_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inspection_info_layout"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:text="@string/textview" />
+
+    <ListView
+            android:id="@+id/inspection_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/inspection_info_layout"
+            android:padding = "6dp"
+            android:scrollbars="vertical" />
+
+
+
+            <LinearLayout
+                android:id="@+id/inspection_info_layout"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical"
+
+                android:background="@drawable/inspection_info_formatting">
+
+                <TextView
+                    android:id="@+id/inspection_date_text"
+                    android:typeface="monospace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:padding="10dp"
+                    android:text="@string/inspection_date_string" />
+
+                <TextView
+                    android:id="@+id/inspection_type_text"
+                    android:typeface="monospace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black"
+                    android:text="@string/inspection_type_string" />
+
+                <TextView
+                    android:id="@+id/inspection_num_critical_text"
+                    android:typeface="monospace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black"
+                    android:text="@string/inspection_num_critical_string" />
+
+                <TextView
+                    android:id="@+id/inspection_num_noncritical_text"
+                    android:typeface="monospace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:textColor="@android:color/black"
+                    android:text="@string/inspection_num_non_critical_string" />
+
+
+                <RelativeLayout
+                    android:id="@+id/hazard_row"
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/hazard_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true" />
+
+                    <TextView
+                        android:typeface="monospace"
+                        android:id="@+id/inspection_hazard_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inspection_hazard_string"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".RestaurantActivity">
+
+
+    <TextView
+        android:id="@+id/EmptyInspect"
+        android:layout_width="369dp"
+        android:layout_height="39dp"
+        android:layout_above="@+id/inspectListView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginBottom="17dp"
+        android:fontFamily="serif-monospace"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        tools:text="@tools:sample/lorem" />
+
+    <TextView
+        android:id="@+id/RestNameText"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginVertical="5dp"
+        android:digits="fd"
+        android:padding="2dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="@string/restaurant_name"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/AddressText"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RestNameText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="9dp"
+        android:clickable="true"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="onClick"
+        android:text="@string/restaurant_address"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/CoordsText"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AddressText"
+        android:layout_marginVertical="100dp"
+        android:layout_marginTop="4dp"
+        android:clickable="true"
+        android:fontFamily="monospace"
+        android:text="@string/gps_coordinates"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/inspectListView"
+        android:layout_width="390dp"
+        android:layout_height="465dp"
+        android:layout_below="@+id/CoordsText"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="20dp" />
+
+    <ImageView
+        android:id="@+id/fav"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/favicondisabled" />
+
+</RelativeLayout>

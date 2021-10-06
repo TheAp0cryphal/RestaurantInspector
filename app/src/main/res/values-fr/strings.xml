@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">RestaurantApp</string>
+    <string name="title_activity_restaurant">Activité du restaurant</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Bonjour Square World!</string>
+    <string name="title_activity_inspection">InspectionActivité</string>
+    <string name="violations_title">Liste des violations:</string>
+    <string name="inspection_date_string">Date: </string>
+    <string name="inspection_type_string">Type: </string>
+    <string name="inspection_num_critical_string">Nombre de critiques: </string>
+    <string name="inspection_num_non_critical_string">Nombre de non critiques:</string>
+    <string name="inspection_hazard_string">Danger: </string>
+
+    <string name="violation_description">La description: </string>
+    <string name="violation_code">Code de violation: </string>
+    <string name="violation_critical">État critique: </string>
+    <string name="violation_repetition">La fréquence: </string>
+    <string name="no_violations">Aucune violation</string>
+    <string name="title_activity_maps">Carte</string>
+
+    <string name="Not_Repeat">Non répéter</string>
+    <string name="Repeat">Répéter</string>
+
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="title_activity_tabbed">Gérant de restaurant</string>
+    <string name="tab_text_1">Restaurants</string>
+    <string name="tab_text_2">Carte</string>
+    <string name="title_activity_testing">essai</string>
+    <string name="textview">Affichage</string>
+    <string name="restaurant_name">Nom du restaurant</string>
+    <string name="restaurant_address">Adresse du restaurant</string>
+    <string name="gps_coordinates">Les coordonnées GPS</string>
+    <string name="line_1">Ligne 1</string>
+    <string name="line_2">Ligne 2</string>
+    <string name="line3">Ligne3</string>
+
+    <string name="items_loading">8 éléments sont en cours de chargement…</string>
+    <string name="Data_is_updating">Les données se mettent à jour</string>
+    <string name="Server_error">Erreur du serveur</string>
+
+    <string name="Hint">allusion</string>
+    <string name="Update_Data">Mettre à jour les données?</string>
+    <string name="NO">NON</string>
+    <string name="YES">OUI</string>
+    <string name="updated">mis à jour</string>
+    <string name="Cancel_update">Annuler la mise à jour</string>
+    <string name="OK">D accord</string>
+
+    <string name="title_activity_search">Activité de recherche</string>
+    <string name="search_name">Recherche par nom: </string>
+    <string name="search_hazard">Recherche par niveau de danger: </string>
+    <string name="search_critical">Recherche par nombre de violations critiques: </string>
+    <string name="search_favourite">Recherche par favoris: </string>
+    <string name="search_map">Rechercher \n sur la carte</string>
+    <string name="search_list">Liste \n de recherche</string>
+    <string name="clear_list">Effacer \n la recherche</string>
+    <string name="less_or_greater">Inférieur ou Supérieur à</string>
+    <string name="enter_name">Entrez le nom du restaurant</string>
+    <string name="enter_hazard">Entrer le niveau de danger (Faible, Modéré, Élevé)</string>
+    <string name="enter_number">Entrez le nombre de violations critiques</string>
+
+    <string name="favourite">Favoris</string>
+
+
+
+    <string name="issues"> problèmes</string>
+    <string name="Last_Inspected_On">Dernière inspection le: </string>
+
+    <string name="January">janvier</string>
+    <string name="February">février</string>
+    <string name="March">Mars</string>
+    <string name="April">avril</string>
+    <string name="May">Mai</string>
+    <string name="June">juin</string>
+    <string name="July">juillet</string>
+    <string name="August">août</string>
+    <string name="September">septembre</string>
+    <string name="October">octobre</string>
+    <string name="November">novembre</string>
+    <string name="December">décembre</string>
+
+    <string name="Address">Adresse: </string>
+    <string name="Recent_Hazard">Risque récent: </string>
+    <string name="No_Recent_Inspections">Risque récent: aucune inspection récente</string>
+
+    <string name="High">École</string>
+    <string name="Moderate">Modérer</string>
+    <string name="Low">Faible</string>
+
+    <string name="Location_permissions_granted">Autorisations de localisation accordées</string>
+    <string name="OnRequestPermissionResult">Résultat dautorisation sur demande</string>
+    <string name="OnPermissionGranted">Sur autorisation accordée</string>
+    <string name="OnPermissionDenied">Sur autorisation refusée</string>
+    <string name="Location_Permission_Required">Autorisation de localisation requise</string>
+    <string name="The_app_needs_location_permissions_to_function_optimally">L application a besoin dautorisations de localisation pour fonctionner de manière optimale</string>
+    <string name="Settings">réglages</string>
+    <string name="Use_Anyway">Utiliser quand même</string>
+
+    <string name="Map">Carte</string>
+    <string name="Search">Chercher</string>
+
+    <string name="Located_at">Situé à:</string>
+    <string name="Removed_from_Favourites">Supprimé des favoris :(</string>
+    <string name="Added_to_Favourites">Ajouté aux Favoris :)</string>
+
+    <string name="No_inspections">Aucune inspection</string>
+
+    <string name="Critical">Critique: </string>
+    <string name="Non_Critical">Non critique: </string>
+
+    <string name="Follow_Up">Suivre</string>
+
+
+    <string name="violation101">Bâtiment non conforme au règlement.</string>
+    <string name="violation102">Exploitation dun local alimentaire non agréé.</string>
+    <string name="violation103">Ne pas détenir un permis valide.</string>
+    <string name="violation104">Permis non affiché dans un endroit bien en vue.</string>
+    <string name="violation201">Aliments contaminés ou impropres à la consommation humaine.</string>
+    <string name="violation202">Aliments non transformés de manière sûre.</string>
+    <string name="violation203">Les aliments ne sont pas refroidis de manière acceptable.</string>
+    <string name="violation204">Aliments non cuits ou réchauffés de manière sûre.</string>
+    <string name="violation205">Aliments froids potentiellement dangereux conservés à plus de 4 ° C.</string>
+    <string name="violation206">Aliments chauds potentiellement dangereux conservés à moins de 60 ° C.</string>
+    <string name="violation208">Aliments obtenus de sources non approuvées.</string>
+    <string name="violation209">Aliments non protégés de la contamination.</string>
+    <string name="violation210">Aliments non décongelés d une manière acceptable.</string>
+    <string name="violation211">Aliments potentiellement congelés conservés au-dessus de -18 ° C.</string>
+    <string name="violation212">L opérateur n a pas fourni de traitement acceptable des aliments.</string>
+    <string name="violation301">Les surfaces non maintenues dans un état sanitaire.</string>
+    <string name="violation302">Les surfaces ne sont pas correctement lavées et désinfectées.</string>
+    <string name="violation303">L entretien sanitaire n est pas adéquat.</string>
+    <string name="violation304">Locaux non exempts de parasites.</string>
+    <string name="violation305">Peut permettre l\'entrée / l hébergement / la reproduction des ravageurs.</string>
+    <string name="violation306">Locaux alimentaires non maintenus dans un état sanitaire.</string>
+    <string name="violation307">Les surfaces ne sont pas de conception / matériau approprié.</string>
+    <string name="violation308">Les surfaces ne sont pas en bon état de fonctionnement.</string>
+    <string name="violation309">Nettoyants chimiques stockés ou étiquetés de manière incorrecte.</string>
+    <string name="violation310">Les conteneurs à usage unique sont utilisés plus d une fois.</string>
+    <string name="violation311">Locaux non entretenus selon les plans approuvés.</string>
+    <string name="violation312">Les articles indésirables sont stockés dans les locaux destinés aux aliments.</string>
+    <string name="violation313">Animal vivant sur place.</string>
+    <string name="violation314">L opérateur n a pas fourni de procédures acceptables.</string>
+    <string name="violation315">Les équipements manquent de thermomètres précis.</string>
+    <string name="violation401">Pas assez de stations de lavage des mains pour les employés.</string>
+    <string name="violation402">L employé ne se lave pas les mains correctement.</string>
+    <string name="violation403">L employé n a pas une bonne hygiène personnelle.</string>
+    <string name="violation404">Employé qui fume dans la préparation des aliments.</string>
+    <string name="violation501">L opérateur n a pas le niveau 1 de FOODSAFE.</string>
+    <string name="violation502">En l’absence de l’opérateur, aucun membre du personnel n’a le niveau 1 de FOODSAFE.</string>
+
+    <string name="New_inspections">Nouvelle Inspections</string>
+
+
+
+
+</resources>

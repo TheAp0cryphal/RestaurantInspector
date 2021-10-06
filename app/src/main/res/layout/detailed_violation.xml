@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/inspection_info_layout"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/violation_description"
+            android:typeface="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:text="@string/violation_description" />
+
+        <TextView
+            android:id="@+id/violation_code"
+            android:typeface="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/violation_code" />
+
+        <TextView
+            android:id="@+id/violation_critical"
+            android:typeface="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/violation_critical" />
+
+        <TextView
+            android:id="@+id/violation_repetition"
+            android:typeface="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:text="@string/violation_repetition" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

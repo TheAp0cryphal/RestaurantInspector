@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            android:id="@+id/inspection_icon"/>
+
+        <TextView
+            android:id="@+id/inspection_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/line_1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/inspection_icon"/>
+        <TextView
+            android:id="@+id/inspection_critical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/line_2"
+            android:textSize="15sp"
+            android:layout_below="@+id/inspection_description"
+            android:layout_toEndOf="@+id/inspection_icon"
+            android:layout_marginStart="8dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

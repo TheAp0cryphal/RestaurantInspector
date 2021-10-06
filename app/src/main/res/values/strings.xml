@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">RestaurantApp</string>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_inspection">InspectionActivity</string>
+    <string name="violations_title">Violation List: </string>
+    <string name="inspection_date_string">Date: </string>
+    <string name="inspection_type_string">Type: </string>
+    <string name="inspection_num_critical_string">Number of critical: </string>
+    <string name="inspection_num_non_critical_string">Number of non critical: </string>
+    <string name="inspection_hazard_string">Hazard: </string>
+
+    <string name="violation_description">Description: </string>
+    <string name="violation_code">Violation Code: </string>
+    <string name="violation_critical">Critical status: </string>
+    <string name="violation_repetition">Frequency: </string>
+    <string name="no_violations">No Violations</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="Not_Repeat">Not Repeat</string>
+    <string name="Repeat">Repeat</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabbed">Restaurant Manager</string>
+    <string name="tab_text_1">Restaurants</string>
+    <string name="tab_text_2">Map</string>
+    <string name="title_activity_testing">testing</string>
+    <string name="textview">TextView</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="restaurant_address">Restaurant Address</string>
+    <string name="gps_coordinates">GPS Coordinates</string>
+    <string name="line_1">Line 1</string>
+    <string name="line_2">Line 2</string>
+    <string name="line3">line3</string>
+
+
+    <string name="items_loading">8 items is loading…</string>
+    <string name="Data_is_updating">Data is updating</string>
+    <string name="Server_error">Server error</string>
+
+    <string name="Hint">Hint</string>
+    <string name="Update_Data">Update Data?</string>
+    <string name="NO">NO</string>
+    <string name="YES">YES</string>
+    <string name="updated">updated</string>
+    <string name="Cancel_update">Cancel update</string>
+    <string name="OK">OK</string>
+
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="search_name">Search by name: </string>
+    <string name="search_hazard">Search by hazard level: </string>
+    <string name="search_critical">Search by number of critical violations: </string>
+    <string name="search_favourite">Search by favourites: </string>
+    <string name="search_map">Search map</string>
+    <string name="search_list">Search list</string>
+    <string name="clear_list">Clear search</string>
+    <string name="less_or_greater">Less or Greater than</string>
+    <string name="enter_name">Enter name of restaurant</string>
+    <string name="enter_hazard">Enter hazard level: (Low, Moderate, High)</string>
+    <string name="enter_number">Enter number of critical violations</string>
+    <string name="favourite">Favourites</string>
+
+
+    <string name="issues">issues</string>
+    <string name="Last_Inspected_On">Last Inspected On: </string>
+
+    <string name="January">January</string>
+    <string name="February">February</string>
+    <string name="March">March</string>
+    <string name="April">April</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+    <string name="August">August</string>
+    <string name="September">September</string>
+    <string name="October">October</string>
+    <string name="November">November</string>
+    <string name="December">December</string>
+
+    <string name="Address">Address: </string>
+    <string name="No_Recent_Inspections">Recent Hazard: No Recent Inspections</string>
+    <string name="Recent_Hazard">Recent Hazard: </string>
+
+    <string name="High">High</string>
+    <string name="Moderate">Moderate</string>
+    <string name="Low">Low</string>
+
+
+    <string name="Location_permissions_granted">Location permissions granted</string>
+    <string name="OnRequestPermissionResult">OnRequestPermissionResult</string>
+    <string name="OnPermissionGranted">OnPermissionGranted</string>
+    <string name="OnPermissionDenied">OnPermissionDenied</string>
+    <string name="Location_Permission_Required">Location Permission Required</string>
+    <string name="The_app_needs_location_permissions_to_function_optimally">The app needs location permissions to function optimally</string>
+    <string name="Settings">Settings</string>
+    <string name="Use_Anyway">Use Anyway</string>
+
+    <string name="Map">Map</string>
+    <string name="Search">Search</string>
+
+
+    <string name="Located_at">Located at:</string>
+    <string name="Removed_from_Favourites">Removed from Favourites :(</string>
+    <string name="Added_to_Favourites">Added to Favourites :)</string>
+
+    <string name="No_inspections">No inspections</string>
+
+    <string name="Critical">Critical</string>
+    <string name="Non_Critical">Non-Critical</string>
+
+    <string name="Follow_Up">Follow-Up</string>
+
+
+    <string name="violation101">Building not in accordance with the Regulation.</string>
+    <string name="violation102">Operation of an unapproved food premises.</string>
+    <string name="violation103">Failure to hold a valid permit.</string>
+    <string name="violation104">Permit not posted in a conspicuous location.</string>
+    <string name="violation201">Food contaminated or unfit for human consumption.</string>
+    <string name="violation202">Food not processed in a safe way.</string>
+    <string name="violation203">Food not cooled in an acceptable manner.</string>
+    <string name="violation204">Food not cooked or reheated in a safe way.</string>
+    <string name="violation205">Cold potentially hazardous food stored above 4 °C.</string>
+    <string name="violation206">Hot potentially hazardous food stored below 60 °C.</string>
+    <string name="violation208">Foods obtained from unapproved sources.</string>
+    <string name="violation209">Food not protected from contamination.</string>
+    <string name="violation210">Food not thawed in an acceptable manner.</string>
+    <string name="violation211">Frozen potentially food stored above -18 °C.</string>
+    <string name="violation212">Operator has not provided acceptable food handling.</string>
+    <string name="violation301">The surfaces not maintained in sanitary condition.</string>
+    <string name="violation302">The surfaces not properly washed and sanitized.</string>
+    <string name="violation303">The sanitary maintenance not adequate.</string>
+    <string name="violation304">Premises not free of pests.</string>
+    <string name="violation305">May allow entrance/harbouring/breeding of pests.</string>
+    <string name="violation306">Food premises not maintained in a sanitary condition.</string>
+    <string name="violation307">The surfaces are not of suitable design/material.</string>
+    <string name="violation308">The surfaces are not in good working order.</string>
+    <string name="violation309">Chemicals cleansers stored or labeled improperly.</string>
+    <string name="violation310">Single use containers are used more than once.</string>
+    <string name="violation311">Premises not maintained as per approved plans.</string>
+    <string name="violation312">Unwanted items are stored at food premises.</string>
+    <string name="violation313">Live animal on the premises.</string>
+    <string name="violation314">Operator has not provided acceptable procedures.</string>
+    <string name="violation315">Equipments lack accurate thermometers.</string>
+    <string name="violation401">No enough handwashing stations for employees.</string>
+    <string name="violation402">Employee does not wash hands properly.</string>
+    <string name="violation403">Employee lacks good personal hygiene.</string>
+    <string name="violation404">Employee smoking in food preparation.</string>
+    <string name="violation501">Operator does not have FOODSAFE Level 1.</string>
+    <string name="violation502">In operator’s absence no staff has FOODSAFE Level 1.</string>
+    <string name="New_inspections">New Inspections</string>
+
+
+</resources>

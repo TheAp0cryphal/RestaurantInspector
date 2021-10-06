@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".SearchActivity"
+    tools:deviceIds="wear">
+
+    <LinearLayout
+        android:id="@+id/name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/search_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:singleLine="true"
+            android:text="@string/search_name" />
+
+        <EditText
+            android:id="@+id/name_enter_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:editable="true"
+            android:hint="@string/enter_name"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hazard_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_layout"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/search_hazard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:singleLine="true"
+            android:text="@string/search_hazard" />
+
+        <EditText
+            android:id="@+id/name_enter_hazard_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:editable="true"
+            android:hint="@string/enter_hazard"
+            android:maxLines="1"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/critical_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hazard_layout"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/search_critical"
+            android:layout_width="204dp"
+            android:layout_height="38dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/search_critical" />
+
+        <Switch
+            android:id="@+id/LessThan_GreatThanSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-40dp"
+            android:background="#FFFFFF"
+            android:clickable="true"
+            android:gravity="center"
+            android:showText="true"
+            android:text="@string/less_or_greater"
+            android:textOff="-"
+            android:textOn="+" />
+
+        <EditText
+            android:id="@+id/name_enter_critical_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:editable="true"
+            android:hint="@string/enter_number"
+            android:singleLine="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/favourite_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/critical_layout"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/search_favourite"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:singleLine="true"
+            android:text="@string/search_favourite" />
+
+        <Switch
+            android:id="@+id/favourite_switch"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#FFFFFF"
+            android:clickable="true"
+            android:gravity="center"
+            android:showText="true"
+            android:text="@string/favourite"
+            android:textOff="@string/NO"
+            android:textOn="@string/YES" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/search_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="50dp"
+        android:background="#FFFFFF"
+        android:text="@string/search_map" />
+
+    <Button
+        android:id="@+id/search_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight = "20dp"
+        android:layout_marginBottom="50dp"
+        android:background="#FFFFFF"
+        android:text="@string/search_list" />
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="#FFFFFF"
+        android:text="@string/clear_list" />
+
+</RelativeLayout>

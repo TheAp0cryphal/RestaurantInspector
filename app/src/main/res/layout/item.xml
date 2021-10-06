@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    android:paddingBottom="16dp"
+    app:cardBackgroundColor="@color/plain_white"
+    app:contentPadding="2dp">
+
+
+    <RelativeLayout
+        android:id="@+id/itemLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="79dp"
+            android:layout_height="match_parent"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/iv"
+            android:text="@string/line_1"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/iv"
+            android:text="@string/line_2"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/iv_dengji"
+            android:layout_alignEnd="@+id/tv2"
+            android:layout_alignBottom="@+id/tv2"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="-39dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="-130dp"
+            android:layout_marginRight="-170dp"
+            android:layout_marginBottom="-26dp"
+            android:layout_toStartOf="@id/tv2"
+            android:layout_toLeftOf="@id/tv2"
+            android:layout_toEndOf="@id/tv2"
+            android:layout_toRightOf="@id/tv2"
+            android:clickable="false"
+            android:text="@string/line3"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/iv_dengji"
+            android:layout_width="85dp"
+            android:layout_height="67dp"
+            android:layout_below="@+id/tv1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="235dp"
+            android:layout_marginRight="-82dp"
+            android:layout_toStartOf="@id/tv1"
+            android:layout_toLeftOf="@id/tv1"
+            android:layout_toEndOf="@id/iv"
+            android:layout_toRightOf="@id/tv1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/favicon" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

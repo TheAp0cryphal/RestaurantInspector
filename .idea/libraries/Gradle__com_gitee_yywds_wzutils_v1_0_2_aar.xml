@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gitee.yywds:wzutils:v1.0.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28fda1a74fcc89a7a0809ad7b6eb1499/jetified-wzutils-v1.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28fda1a74fcc89a7a0809ad7b6eb1499/jetified-wzutils-v1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/28fda1a74fcc89a7a0809ad7b6eb1499/jetified-wzutils-v1.0.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gitee.yywds/wzutils/v1.0.2/e48c46781f266d9b282c43c4d6bddec77dd1919d/wzutils-v1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

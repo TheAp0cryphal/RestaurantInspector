@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.example.restaurantapp"
+        minSdkVersion 29
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        resValue "string", "google_maps_key", (project.findProperty("GOOGLE_MAPS_API_KEY") ?: "")
+
+
+
+        renderscriptTargetApi 19
+        renderscriptSupportModeEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.3'
+    implementation 'androidx.wear:wear:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview-selection:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.gms:play-services-maps:16.0.0'
+    implementation "com.google.android.gms:play-services-location:16.0.0"
+    implementation 'pub.devrel:easypermissions:3.0.0'
+    implementation 'com.google.maps.android:android-maps-utils:2.1.0'
+    implementation 'pub.devrel:easypermissions:2.0.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    compileOnly 'com.google.android.wearable:wearable:2.8.1'
+
+
+    implementation 'com.kongzue.dialog:dialog:2.4.8'
+    implementation 'com.google.code.gson:gson:2.8.6'//Gson
+    implementation 'com.lxj:xpopup:2.0.8'  //xpopup
+    implementation 'com.jakewharton:butterknife:10.2.1'//butterknife
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.5.0'// OKHttp
+    implementation 'com.gitee.yywds:wzutils:v1.0.2'
+    implementation 'com.gyf.immersionbar:immersionbar:3.0.0-beta05'
+
+}

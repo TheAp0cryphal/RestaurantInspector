@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:id="@+id/restaurant_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            android:id="@+id/inspection_icon"/>
+
+        <TextView
+            android:id="@+id/inspection_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="-2dp"
+            android:layout_toEndOf="@+id/inspection_icon"
+            android:text="@string/line_1"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/critical_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/line_2"
+            android:textSize="15sp"
+            android:layout_below="@+id/inspection_description"
+            android:layout_toEndOf="@+id/inspection_icon"
+            android:layout_marginStart="8dp"/>
+
+        <TextView
+            android:id="@+id/non_critical_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/line_2"
+            android:textSize="15sp"
+            android:layout_below="@+id/inspection_description"
+            android:layout_marginStart="8dp"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/inspection_date"
+            android:layout_marginStart="160dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
